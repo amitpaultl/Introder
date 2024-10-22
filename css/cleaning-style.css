@@ -67,10 +67,10 @@ Home Style CSS
 .home-section:before {
     position: absolute;
     content: url('../images/cleaning/home-bg.png');
-    width: 100%;
+    width: auto;
     height: 100px;
     top: 0;
-    right: -36%;
+    right: 0;
     z-index: -1;
 }
 
