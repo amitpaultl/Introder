@@ -76,8 +76,7 @@ Home Style CSS
 
 .home-section .content {
     max-height: 586px;
-    position: absolute;
-    top: 48%;
+    
 }
 
 .home-section .content h1 {
@@ -99,8 +98,6 @@ Home Style CSS
 	margin-bottom: 28px;
 }
 
-.home-section .content .video-box {
-}
 
 .home-section .content .video-box .icon-box {
     background-color: #14287d;

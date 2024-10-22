@@ -412,6 +412,12 @@ Creation Date: 8 October 2018*/
     .about-features .thumb .about-video .about-video-btn i{
         margin-left:10px;
     }
+
+    .select-form {
+        padding: 50px 40px;
+        background: #fff;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 409px) {
