@@ -1530,15 +1530,19 @@ a.dropdown-item.active {
     text-align: center !important;
 }
 
+.carousel-item .slide-image {
+    height: 100vh;
+}
+
 .slide-text {
-    left: 0%;
+    left: 0;
     margin: auto;
     overflow: hidden;
-    padding: 10px 85px;
     position: absolute;
-    right: 15%;
+    right: 0;
     text-align: left;
     top: 33%;
+    max-width: 1320px;
 }
 
 .slide-text.home-2 {
@@ -1883,9 +1887,7 @@ a.dropdown-item.active {
 /*------------------------------------------------------*/
 
 @media (max-width: 991px) {
-    .slide-text {
-        display: none;
-    }
+
 
     .bs-slider {
         max-height: 450px;

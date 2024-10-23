@@ -31,10 +31,17 @@ Creation Date: 8 October 2018*/
     }
 }
 
+@media (max-width: 1400px) {
+    .slide-text{
+        max-width: 1140px;
+    }
+}
+
 @media (max-width: 1199px) {
     /*Home Style Css*/
 
-    .carousel-item .slide-image {
+    .slide-text{
+        max-width: 960px;
     }
 
     .slide-text {
@@ -143,6 +150,10 @@ Creation Date: 8 October 2018*/
 }
 
 @media (max-width: 991px) {
+
+    .slide-text{
+        max-width: 720px;
+    }
 
     /*Home Css Style Details*/
 
